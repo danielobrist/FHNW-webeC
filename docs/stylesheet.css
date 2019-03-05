@@ -7,7 +7,15 @@ table, th, td {
 	vertical-align: middle;
 }
 
+th {
+	background-color: #707070;
+}
+
 th, td {
 	padding: 10px;
 	border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
 }
